@@ -1,0 +1,36 @@
+<div class="container-fluid">
+  <div class="div-centered">
+    <table>
+      <thead>
+        <tr>
+          <th class="h4">#</th>
+          <th class="h4">Name</th>
+          <th class="h4">Channel</th>
+          <th class="h4">Seasons</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let c of listaseries">
+          <td>
+            <dd>{{ c.id }}</dd>
+          </td>
+          <td>
+            <dd>{{ c.titulo }}</dd>
+          </td>
+          <td>
+            <dd>{{ c.cadena_tv }}</dd>
+          </td>
+          <td>
+            <dd>{{ c.temporadas }}</dd>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">Temporadas promedio</td>
+          <td>
+            <dd>{{ promedioSeries }}</dd>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
