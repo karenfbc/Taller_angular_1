@@ -3,7 +3,7 @@ table {
   background-color: rgb(215, 215, 215);
   text-align: left;
   border-collapse: collapse;
-  width: 100%;
+  width: 50%;
 }
 .div-centered {
   margin-right: 50px;
@@ -14,10 +14,10 @@ td {
   padding: 15px;
 }
 thead {
-  background-color: rgb(164, 164, 164);
+  background-color: rgb(255, 255, 255);
 }
 table tbody tr td:nth-child(2) {
-  color: rgb(255, 0, 0);
+  color: rgb(52, 164, 235);
 }
 table tbody tr td:nth-child(1) {
   font-weight: bold;
